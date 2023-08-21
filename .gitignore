@@ -1,0 +1,32 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.tfvars
+*.tfvars.json
+*.tfvars.tf
+
+# Crash log files
+crash.log
+
+# Ignore .terraform directories
+**/.terraform/
+
+# Ignore override files as they are usually used to override resources locally and do not need to be tracked
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore CLI local mirrors
+.mirror
+
+# Ignore MacOS Finder metadata
+.DS_Store
+
+# Ignore Visual Studio Code settings
+.vscode/
